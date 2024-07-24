@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', 'index.html', 'gs://sks001-us-central1/']
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['cp', 'index.html', 'gs://sks001-europe-west1/']
